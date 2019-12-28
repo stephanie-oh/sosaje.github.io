@@ -20,7 +20,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: #F2B6B6;
 }
 
 .navbar-collapse  {
@@ -52,7 +52,7 @@ body {
 }
 
 .description h1 {
-    color: #fb9da7
+    color: #F2B6B6;
 }
 
 .description p {
@@ -62,28 +62,23 @@ body {
 }
 
 
-.link {
-    padding:15px 35px;
-	background:#fb9da7;
-	color:#fff !important;
-	font-size:16px;
-	font-weight:400;
-	display:inline-block;
-	border-radius:50px;
-	line-height:25px;
-	margin-bottom:20px;
-}
+/* Color Theme Swatches in Hex */
+.Coconut-Ice-Sweets-1-hex { color: #D93250; }
+.Coconut-Ice-Sweets-2-hex { color: #F2B3BF; }
+.Coconut-Ice-Sweets-3-hex { color: #F26B8F; }
+.Coconut-Ice-Sweets-4-hex { color: #F299B1; }
+.Coconut-Ice-Sweets-5-hex { color: #F2E0C9; }
 
+/* Color Theme Swatches in RGBA */
+.Coconut-Ice-Sweets-1-rgba { color: rgba(217, 50, 80, 1); }
+.Coconut-Ice-Sweets-2-rgba { color: rgba(242, 179, 191, 1); }
+.Coconut-Ice-Sweets-3-rgba { color: rgba(242, 107, 143, 1); }
+.Coconut-Ice-Sweets-4-rgba { color: rgba(242, 153, 177, 1); }
+.Coconut-Ice-Sweets-5-rgba { color: rgba(242, 224, 201, 1); }
 
-.link:hover {
-	text-decoration:none;
-	color:#fb9da7 !important;
-	background:#fff;
-}
-
-.link:active, 
-.link:focus {
-	background: #fb9da7;
-	text-decoration:none;
-	color:#fff !important;
-}
+/* Color Theme Swatches in HSLA */
+.Coconut-Ice-Sweets-1-hsla { color: hsla(349, 68, 52, 1); }
+.Coconut-Ice-Sweets-2-hsla { color: hsla(348, 70, 82, 1); }
+.Coconut-Ice-Sweets-3-hsla { color: hsla(344, 83, 68, 1); }
+.Coconut-Ice-Sweets-4-hsla { color: hsla(343, 77, 77, 1); }
+.Coconut-Ice-Sweets-5-hsla { color: hsla(33, 61, 86, 1); }
