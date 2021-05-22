@@ -108,7 +108,7 @@
         }
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
-                loop: false,
+                loop: true,
                 nav: false,
                 dots: true,
                 items: 3,
@@ -155,7 +155,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['slide01', 'slide02', 'slide03', 'slide04', 'slide05', 'slide06', 'slide07'],
+                anchors: ['home', 'about', 'services', 'skills', 'work', 'contact', 'slide07'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,
@@ -174,7 +174,7 @@
         }).on('click', '.next-section', function() {
             fullpage_api.moveSectionDown();
         });
-        $('.facts-row').on('inview', function(event, isInView) {
+        $('.facts-row').on('InView', function(event, isInView) {
             $('.count-number').each(function() {
                 $(this).prop('Counter', 0).animate({
                     Counter: $(this).text()
