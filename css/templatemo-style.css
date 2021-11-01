@@ -532,17 +532,17 @@ a#logo {
 }
 .services-list .item {
   background-color: rgba(250,250,250,0.25);
-  border-radius: 10px;
+  border-radius: 50px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 .service-icon {
   display:block;
   margin: 0 auto 0;
-  font-size: 64px;
+  font-size: 30px;
 }
 .service-box {
-  font-size:15px;
+  font-size: 15px;
   padding:40px 20px;
   height:100%;
 }
@@ -558,7 +558,7 @@ a#logo {
   padding: 10px;
 }
 .service-box p:last-child {
-  margin:0;
+  margin: 0;
 }
 .owl-carousel .owl-dots .owl-dot {
   border-radius: 3px;
