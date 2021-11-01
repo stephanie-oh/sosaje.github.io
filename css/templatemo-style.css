@@ -446,7 +446,7 @@ a#logo {
 .next-section span {
   margin-top: 15px;
   display: block;
-  text-transform: ;
+  text-transform: capitalize ;
   font-size: 12px;
   font-weight: 500;
 }
