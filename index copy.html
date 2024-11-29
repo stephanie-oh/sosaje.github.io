@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Barbie Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function toggleDarkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="toggle-dark-mode">
+      <label class="switch">
+        <input
+          type="checkbox"
+          id="dark-mode-switch"
+          onclick="toggleDarkMode()"
+        />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <header>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                class="desktop"
+                src="imgs/Barbie_Logo102x58.png"
+                alt="Desktop Logo"
+              />
+            </a>
+            <a href="index.html">
+              <img
+                class="mobile"
+                src="imgs/barbie_logo2.png"
+                alt="Mobile Logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-links">
+          <a href="gallery.html"><img src="imgs/Gallery.png" alt="" /></a>
+          <a href="news.html"><img src="imgs/News-2024-04-11.png" alt="" /></a>
+          <a href="history.html"><img src="imgs/History.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img class="desktop" src="imgs/barbie_wallie2.png" alt="" />
+        <img class="mobile" src="imgs/barbie_wallie_m.png" alt="" />
+      </div>
+    </header>
+    <section class="flex-container">
+      <div class="flex-item">
+        <img src="imgs/gallery.jpg" alt="" />
+        <p class="overlay-text">gallery</p>
+      </div>
+      <div class="flex-item">
+        <img src="imgs/news.jpg" alt="" />
+        <p class="overlay-text">news</p>
+      </div>
+      <div class="flex-item">
+        <img src="imgs/Ruth_Handler_in_1961.jpg" alt="" />
+        <p class="overlay-text">history</p>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-links">
+        <nav>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="history.html">History</a></li>
+        </nav>
+      </div>
+      <div class="media-links">
+        <a href="https://www.instagram.com/barbie/?hl=en" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/barbie?lang=en" target="_blank">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/barbie/" target="_blank">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <i class="fa fa-snapchat-square" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="legals">
+        <img src="imgs/barbie_logo3.png" alt="" class="footer-logo" />
+        <p>&copy; 2024, Mattel Inc. All Rights Reserved.</p>
+        <ul>
+          <li>privacy policy</li>
+          <li>sitemap</li>
+          <li>accessibility</li>
+          <li>terms of use</li>
+        </ul>
+      </div>
+    </footer>
+    <!-- images courtsey of Mattel Inc. All rights reserved -->
+    <!-- hero images designed by Stephanie Osaje -->
+  </body>
+</html>
